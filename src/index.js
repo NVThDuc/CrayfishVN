@@ -25,6 +25,10 @@ app.get('/Mua-Ban', (req, res) => {
   res.render('shop');
 })
 
+app.get('/search', (req, res) => {
+  res.render('search');
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
