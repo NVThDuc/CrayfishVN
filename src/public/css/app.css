@@ -1,8 +1,89 @@
-h1 {
-  color: red; }
+* {
+  padding: 0;
+  margin: 0;
+  /*box-size:border-box;*/ }
 
-h2 {
-  color: slateblue; }
+body {
+  background: rgba(10, 10, 10, 0.4); }
+
+#container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 150px; }
+
+.tabs {
+  display: table-cell;
+  width: 30%;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  border:  2px solid #17035f;
+  border-bottom: 0px;
+  position: relative;
+  font-size: 1.3em;
+  color: #ffffff; }
+
+.tabs:hover, p {
+  cursor: pointer; }
+
+#lt {
+  background-color: #0d0d0e; }
+
+#cont {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(20, 20, 20);
+  border: 2px solid #17035f; }
+
+input {
+  display: block;
+  width: 250px;
+  margin: 10px 13px;
+  padding: 10px;
+  font-size: 1.3em;
+  color: rgba(11, 177, 224, 0.82);
+  outline: 2px solid #ffffff; }
+
+input[type="submit"] {
+  width: 272px;
+  color: #6e6e6e; }
+
+#clear {
+  clear: both; }
+
+.comm {
+  position: absolute;
+  visibility: hidden; }
+
+#login {
+  visibility: visible; }
+
+h3 {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  color: #ffffff; }
+
+#forgot h3 {
+  display: block;
+  margin-top: 30px;
+  text-align: center; }
+
+#forgot div {
+  margin-top: 30px; }
 
 p {
-  color: royalblue; }
+  padding: 10px 15px;
+  font-size: 1.3em;
+  color: #ffffff; }
+
+/*#footer {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    color: rgba(9, 118, 155, 0.91);
+
+}*/
